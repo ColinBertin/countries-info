@@ -2,12 +2,12 @@ import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { render, screen } from "@testing-library/react";
 
-import { Card } from "../components/Countries/Card/Card";
-import { Country } from "../components/Country/Country";
-import { BorderCountry } from "../components/Country/BorderCountry/BorderCountry";
-import { SearchBar } from "../components/Countries/Filter/SearchBar/SearchBar";
-import { SelectRegion } from "../components/Countries/Filter/SelectRegion/SelectRegion";
-import { App } from "../App";
+import { Card } from "./components/Countries/Card/Card";
+import { Country } from "./components/Country/Country";
+import { BorderCountry } from "./components/Country/BorderCountry/BorderCountry";
+import { SearchBar } from "./components/Countries/Filter/SearchBar/SearchBar";
+import { SelectRegion } from "./components/Countries/Filter/SelectRegion/SelectRegion";
+import { App } from "./App";
 
 
 
