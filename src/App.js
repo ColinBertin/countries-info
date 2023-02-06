@@ -11,7 +11,6 @@ export const App = () => {
 
   const toggleTheme = () => {
     setTheme((state) => state === 'light' ? 'dark' : 'light' );
-    console.log(theme)
   }
 
   return (
