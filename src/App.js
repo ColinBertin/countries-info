@@ -7,7 +7,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 
 export const App = () => {
-  const [ theme, setTheme ] = useState('light');
+  const [ theme, setTheme ] = useState('dark');
 
   const toggleTheme = () => {
     setTheme((state) => state === 'light' ? 'dark' : 'light' );
