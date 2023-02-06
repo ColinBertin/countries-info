@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Header } from './components/Header/Header';
 import { Countries } from './components/Countries/Countries';
 import { Country } from './components/Country/Country';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import './App.css';
 
